@@ -1,0 +1,136 @@
+
+header{
+   position: relative;
+   background: #70A17A;
+   height: 80px;
+   left: -7px;
+   top: -21px;
+   width: 101%;
+}
+
+
+nav{
+   float: right;
+    position: relative;
+    top: -43%;
+    right: 32%;
+    
+}
+
+ul{
+   list-style-type: none;
+}
+
+li{
+   float: left;
+padding: 5px ;}
+
+
+body{
+   color:#212923 ;
+  
+}
+
+section{
+   width: 2080px;
+   background-image: url(../images/irongrip.png);
+   height: 960px;
+   left: 0;
+   top: 80px;
+   position: fixed;
+}
+
+div{
+   position: relative;
+    background: #4E8053;
+    left: 30%;
+    top: 2%;
+    padding: 1px 30px 30px 30px;
+    width: 550px;
+}
+
+
+form{
+   display: inline-block;
+   
+}
+
+h1{
+   background-color: #5D7363;
+   color:#212923 ;
+    position: relative;
+    left: 27%;
+    top: 51%;
+    line-height: 39px;
+    width: 181px;
+    text-align: center;
+}
+
+img{
+   border: #212923 ;
+   border: 2px;
+}
+
+h2{  color: #212923;}
+
+
+p{    position: relative;
+   left: 5%;
+   margin: 20px 10px 20px 10px;
+   color: #212923;
+ 
+}
+
+
+
+footer{  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#4F9E5F;
+   color: white;
+   text-align: center;
+   height: 40px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+   background-color: #5D7363;
+   border: none;
+   color: #212923;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+
+ a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: medium;
+   text-decoration: none;
+ }
+
+ /* visited link */
+ a:visited {
+   color:#d2dad4 ;
+  
+ }
+ 
+ /* mouse over link */
+ a:hover {
+   color: #0e1610;
+ }
+ 
+ /* selected link */
+ a:active {
+   color: #212923;
+ }
+
+
+#message {
+   height: 100px;
+   width: 550px;
+}
+
+
+ 
