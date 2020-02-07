@@ -1,19 +1,15 @@
 
 header{
-   position: relative;
-   background: #70A17A;
-   height: 80px;
-   left: -7px;
-   top: -21px;
-   width: 101%;
-}
+   max-width: 960px;
+    margin: 0 auto;
+    height: 67px;
+   display: block;}
+    
 
 
 nav{
    float: right;
-    position: relative;
-    top: -43%;
-    right: 32%;
+   
     
 }
 
@@ -28,57 +24,54 @@ padding: 5px ;}
 
 body{
    color:#212923 ;
-  
+   overflow: auto;
+   background-image: url(../images/irongrip.png);
+   font-size: 14px;
+   line-height: 150%;
+   margin: 0;
+   padding: 0;
+   overflow: auto;
+   position: relative;
 }
 
-section{
-   width: 2080px;
-   background-image: url(../images/irongrip.png);
-   height: 960px;
-   left: 0;
-   top: 80px;
-   position: fixed;
+hr {
+   border: 1px solid darkgrey;
+   max-width: 880px;
 }
 
 div{
-   position: relative;
-    background: #4E8053;
-    left: 30%;
-    top: 2%;
-    padding: 1px 30px 30px 30px;
-    width: 550px;
+  display: block;
 }
 
 
 form{
    display: inline-block;
+   padding-left: 20%;
+   padding-bottom: 10%;
    
 }
 
 h1{
-   background-color: #5D7363;
-   color:#212923 ;
-    position: relative;
-    left: 27%;
-    top: 51%;
-    line-height: 39px;
-    width: 181px;
-    text-align: center;
+   color: #212923;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 40px;
 }
+
 
 img{
    border: #212923 ;
    border: 2px;
+   margin-right: 20px;
+   padding: 20px 0px 10px 40px;
+   float: left;
 }
 
 h2{  color: #212923;}
 
 
-p{    position: relative;
-   left: 5%;
-   margin: 20px 10px 20px 10px;
-   color: #212923;
- 
+p {
+   padding: 10px 40px 20px 40px;
 }
 
 
@@ -91,6 +84,7 @@ footer{  position: fixed;
    color: white;
    text-align: center;
    height: 40px;
+   border-top: 8px solid lightgrey;
 }
 
 
@@ -132,5 +126,29 @@ input[type=button], input[type=submit], input[type=reset] {
    width: 550px;
 }
 
+#navbar{
+   background: #70A17A;
+    max-width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 2px solid lightgrey;
+    top: 0px;
+}
+
+.nametag h1{
+      padding: 23px;
+      color: #70A17A;
+      background: #212923;
+      float: left;
+      margin: 0 0 0;
+      border-width: 1px;
+      border-color: darkgrey;
+  }
+.main{
+   max-width: 960px;
+   margin: 0 auto;
+   background: #C7D6C8;
+   overflow: auto;
+}
+}
 
  
