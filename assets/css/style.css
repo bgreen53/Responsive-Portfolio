@@ -120,7 +120,9 @@ input[type=button], input[type=submit], input[type=reset] {
    color: #212923;
  }
 
-
+#info{
+   width: 550px;
+}
 #message {
    height: 100px;
    width: 550px;
@@ -149,6 +151,44 @@ input[type=button], input[type=submit], input[type=reset] {
    background: #C7D6C8;
    overflow: auto;
 }
-}
+
+
+
+@media only screen and (max-width: 600px) {
+   
+   nav{
+       float: left;
+      
+   }
+   img{
+   width: 75%;
+
+   }
+  form{
+     padding-left: 8%;
+  }
+
+   .nametag h1{
+      width: 100%;
+      text-align: center;
+   }
+   .main{
+     
+      font-weight: bold;
+    }
+    .smdev{
+       text-align: center;
+    }
+    
+    #message {
+      height: 100px;
+      width: 300px;
+   }
+
+   #info{
+      width: 300px;
+   }
+
+} 
 
  
