@@ -81,7 +81,8 @@ footer{  position: fixed;
    bottom: 0;
    width: 100%;
    background-color:#4F9E5F;
-   color: white;
+   color: #212923;
+   font-weight: bold;
    text-align: center;
    height: 40px;
    border-top: 8px solid lightgrey;
@@ -102,6 +103,7 @@ input[type=button], input[type=submit], input[type=reset] {
     font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: medium;
    text-decoration: none;
+   color:d2dad4 ;
  }
 
  /* visited link */
@@ -154,11 +156,17 @@ input[type=button], input[type=submit], input[type=reset] {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
    
+   body{
+      max-width: 100%;
+   }
    nav{
        float: left;
       
+   }
+   header{
+      width: fit-content;
    }
    img{
    width: 75%;
@@ -167,18 +175,16 @@ input[type=button], input[type=submit], input[type=reset] {
   form{
      padding-left: 8%;
   }
+  
 
    .nametag h1{
       width: 100%;
       text-align: center;
    }
    .main{
-     
-      font-weight: bold;
+      font-weight: bold; 
     }
-    .smdev{
-       text-align: center;
-    }
+    
     
     #message {
       height: 100px;
@@ -189,6 +195,85 @@ input[type=button], input[type=submit], input[type=reset] {
       width: 300px;
    }
 
+   #navbar{
+      background:#212923 ;
+   }
+
 } 
+
+@media only screen and (max-width: 768px) {
+   
+   body{
+      max-width: 100%;
+   }
+   
+   
+   img{
+   width: 40%;
+
+   }
+  form{
+     padding-left: 8%;
+  }
+  
+
+   .main{
+      font-weight: bold;
+    }
+    
+    
+    #message {
+      height: 100px;
+      width: 500px;
+   }
+
+   #info{
+      width: 500px;
+   }
+
+  
+} 
+
+@media only screen and (max-width: 768px) {
+   
+   body{
+      max-width: 100%;
+   }
+   
+   
+   img{
+   width: 40%;
+
+   }
+  form{
+     padding-left: 8%;
+  }
+  
+
+   .main{
+      font-weight: bold;
+    }
+    
+    
+    #message {
+      height: 100px;
+      width: 500px;
+   }
+
+   #info{
+      width: 500px;
+   }
+
+  
+} 
+
+@media only screen and (max-width: 980px) {
+   /* not sure what to do here */
+}
+
+   
+   
+
+
 
  
