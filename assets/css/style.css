@@ -154,7 +154,42 @@ input[type=button], input[type=submit], input[type=reset] {
    overflow: auto;
 }
 
+@media only screen and (max-width: 980px) {
+   /* not sure what to do here */
+}
 
+@media only screen and (max-width: 768px) {
+   
+   body{
+      max-width: 100%;
+   }
+   
+   
+   img{
+   width: 40%;
+
+   }
+  form{
+     padding-left: 8%;
+  }
+  
+
+   .main{
+      font-weight: bold;
+    }
+    
+    
+    #message {
+      height: 100px;
+      width: 500px;
+   }
+
+   #info{
+      width: 500px;
+   }
+
+  
+} 
 
 @media only screen and (max-width: 640px) {
    
@@ -201,75 +236,11 @@ input[type=button], input[type=submit], input[type=reset] {
 
 } 
 
-@media only screen and (max-width: 768px) {
-   
-   body{
-      max-width: 100%;
-   }
-   
-   
-   img{
-   width: 40%;
 
-   }
-  form{
-     padding-left: 8%;
-  }
-  
 
-   .main{
-      font-weight: bold;
-    }
-    
-    
-    #message {
-      height: 100px;
-      width: 500px;
-   }
 
-   #info{
-      width: 500px;
-   }
 
-  
-} 
 
-@media only screen and (max-width: 768px) {
-   
-   body{
-      max-width: 100%;
-   }
-   
-   
-   img{
-   width: 40%;
-
-   }
-  form{
-     padding-left: 8%;
-  }
-  
-
-   .main{
-      font-weight: bold;
-    }
-    
-    
-    #message {
-      height: 100px;
-      width: 500px;
-   }
-
-   #info{
-      width: 500px;
-   }
-
-  
-} 
-
-@media only screen and (max-width: 980px) {
-   /* not sure what to do here */
-}
 
    
    
