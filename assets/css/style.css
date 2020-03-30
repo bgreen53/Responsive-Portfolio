@@ -245,6 +245,14 @@ input[type=button], input[type=submit], input[type=reset] {
       width: 500px;
    }
 
+   #portfolio_pic_block {
+      width: 600px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-left: 110px;
+  }
   
 } 
 
@@ -291,7 +299,17 @@ input[type=button], input[type=submit], input[type=reset] {
       background:#212923 ;
    }
 
-} 
+   #portfolio_pic_block {
+      width: 450px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-left: 70px;
+  }
+
+
+}
 
 
 
