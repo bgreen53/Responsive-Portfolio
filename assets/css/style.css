@@ -163,6 +163,12 @@ input[type=button], input[type=submit], input[type=reset] {
    
 }
 
+.bio{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+
+}
+
 #portfolio_pic_block {
 	 width: 600px;
     margin-top: 40px;
