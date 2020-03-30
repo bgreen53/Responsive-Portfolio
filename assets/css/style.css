@@ -1,4 +1,9 @@
 
+
+html{
+   overflow: auto;
+}
+
 header{
    max-width: 960px;
     margin: 0 auto;
@@ -63,8 +68,9 @@ img{
    border: #212923 ;
    border: 2px;
    margin-right: 20px;
-   padding: 20px 0px 10px 40px;
+   padding: 20px 0px 10px 40px; 
    float: left;
+  
 }
 
 h2{  color: #212923;}
@@ -73,6 +79,8 @@ h2{  color: #212923;}
 p {
    padding: 10px 40px 20px 40px;
 }
+
+
 
 
 
@@ -151,8 +159,57 @@ input[type=button], input[type=submit], input[type=reset] {
    max-width: 960px;
    margin: 0 auto;
    background: #C7D6C8;
-   overflow: auto;
+   
+   
 }
+
+#portfolio_pic_block {
+	 width: 600px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 152px;
+}
+   
+
+
+.portPic{
+   width: 230px;
+   height: 200px;
+   padding: 0px 0px 0px 0px;
+   border: 2px solid #70A17A;
+}
+
+.portfolio_pic_text_block {
+   background: #70A17A;
+   width: 234px;
+   height: 40px;
+   margin-top: 136px;
+   padding-top: 20px;
+   position: absolute;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   font-size: 22px;
+   color: #212923;
+   text-align: center;
+   transition: all 0.2s linear;
+}
+
+
+.portfolio_pic_text_block:hover {
+	background: #777777;
+}
+
+.portfolio_pic {
+	height: 205px;
+	margin-bottom: 56px;
+	position: relative;
+}
+
+.portfolio_pic:last-child {
+	margin-bottom: 0px;
+}
+
 
 @media only screen and (max-width: 980px) {
    /* not sure what to do here */
